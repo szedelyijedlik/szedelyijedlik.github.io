@@ -41,48 +41,11 @@ header{
     height: 92vh;
     width: 100%;
 
-    background-image: url(files/img1.JPG);
-    background-size: cover;
-    background-position: center;
+    background-color: #aaaaaa;
 
     display: flex;
     text-align: center;
     justify-content: center;
-}
-
-.content1{
-    display: absolute;
-}
-
-.content1 h1{
-    margin-top: 150px;
-    font-size: 4em;
-}
-
-.content1 p{
-    margin-top: 70px;
-    font-size: 1.4em;
-    margin-bottom: 90px;
-}
-
-.btn-boraink{
-    border: solid;
-    border-color: #282828;
-    border-radius: 10px;
-    position: absolute;
-    background-color: white;
-    color: black;
-    padding: 10px 30px;
-    font-size: 15px;
-    right: 42.5%;
-    transition: 1s;
-}
-
-.btn-boraink:hover{
-    border-color: white;
-    color: white;
-    background-color: #282828;
-    transition: 1s;
 }
 
 /* footer design */

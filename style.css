@@ -83,7 +83,6 @@ header nav.desktop a:hover{
     width: 50%;
     height: 37.5vh;
 
-
     max-width: 0;
 }
 
@@ -99,6 +98,7 @@ header nav.desktop a:hover{
     width: 15vw;
     top: 1.5vh;
     opacity: 0;
+    cursor: pointer;
 }
 
 .menu-btn:checked ~ .hamburger{

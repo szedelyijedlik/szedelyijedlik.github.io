@@ -1,13 +1,7 @@
 @font-face {
     font-family: "VWfont";
-    src: url("VWAGTheAntiqua-Bold.eot");
-    src: url("VWAGTheAntiqua-Bold.eot?#iefix") format("embedded-opentype"),
-    url("VWAGTheAntiqua-Bold.woff") format("woff"),
-    url("VWAGTheAntiqua-Bold.woff2") format("woff2"),
-    url("VWAGTheAntiqua-Bold.svg#VWAGTheAntiqua-Bold") format("svg");
-    font-weight: normal;
-    font-style: normal;
-}
+    src: url(files/VWAGTheSans_Regular.ttf);
+  }
 
 *{
     margin: 0;
@@ -35,6 +29,13 @@
     }
 }
 
+@media(min-height: 700px){
+    header{
+        border-bottom: 0.01vw solid white;
+        background-color: rgba(40,40,40,40%);
+    }
+}
+
 header{
     position: fixed;
     width: 100%;
@@ -49,7 +50,7 @@ header{
 
 a.logo{
     width: 60px;
-    padding-top: 0.5vh;
+    padding: 0.5vh;
     color: white;
 }
 
@@ -60,7 +61,7 @@ header nav.right{
 
 header nav a{
     text-decoration: none;
-    padding: 5px 15px;
+    padding: 10px 15px;
 }
 
 header nav.desktop a:hover{
@@ -107,4 +108,16 @@ section{
     padding-top: 15vh;
     font-size: 3vw;
     text-decoration: underline;
+}
+
+/* footer */
+
+footer{
+    height: 4vh;
+    background-color: #282828;
+    font-size: 0.9vw;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }

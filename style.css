@@ -1,8 +1,19 @@
+@font-face {
+    font-family: "VWfont";
+    src: url("VWAGTheAntiqua-Bold.eot");
+    src: url("VWAGTheAntiqua-Bold.eot?#iefix") format("embedded-opentype"),
+    url("VWAGTheAntiqua-Bold.woff") format("woff"),
+    url("VWAGTheAntiqua-Bold.woff2") format("woff2"),
+    url("VWAGTheAntiqua-Bold.svg#VWAGTheAntiqua-Bold") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'VWfont', sans-serif;
     color: white;
 }
 
@@ -30,6 +41,7 @@ header{
     height: 10vh;
     padding: 5px 20px;
     top: 0;
+    z-index: 2;
 
     display: grid;
     grid-template-columns: auto 1fr auto;
@@ -58,20 +70,25 @@ header nav.desktop a:hover{
 
 .hamburger{
     display: none;
-    right: 1vh;
     text-align: center;
+    width: 50%;
+    height: 30vh;
+    right: 1px;
+    top: 1px;
+    align-items: center;
 }
 
 .mobile:hover .hamburger{
     display: block;
     position: absolute;
-    background-color: rgba(40,40,40,80%);
+    background-color: #282828;
     padding: 5px 5px;
     border-radius: 3px;
 }
 
 .mobile:hover .hamburger a{
     display: block;
+    padding: 30px;
 }
 
 /* KEZDŐLAP */
@@ -86,7 +103,8 @@ section{
 }
 
 .content h1{
-    color: white;
+    color: rgb(60, 60, 255);
     padding-top: 15vh;
     font-size: 3vw;
+    text-decoration: underline;
 }

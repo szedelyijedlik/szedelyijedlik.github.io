@@ -120,30 +120,14 @@ section{
     text-align: center;
 }
 
-.content-1 h1{
+.modell-choose{
     padding-top: 15vh;
-    font-size: 40px;
-    font-weight: 400;
 }
 
-.content-1 p{
-    padding-top: 2vh;
-}
-
-.content-2 h1{
-    padding-top: 17.5vh;
-    font-size: 40px;
-    font-weight: 400;
-    color: #282828;
-}
-
-.content-2 p{
-    padding-top: 4vh;
-    color: #282828;
-}
-
-.content-2 a{
-    color: #282828;
+.modell-choose a{
+    padding: 0 1vw;
+    font-size: 20px;
+    text-decoration: none;
 }
 
 /* footer */

@@ -14,11 +14,12 @@
 
 /* NAVBAR */
 
-.mobile{
-    display: initial;
-}
 .desktop{
     display: none;
+}
+
+.mobile{
+    display: initial;
 }
 
 @media(min-width: 750px){
@@ -70,27 +71,38 @@ header nav.desktop a:hover{
     border-radius: 5px;
 }
 
-.hamburger{
-    display: none;
-    text-align: center;
-    width: 50%;
-    height: 30vh;
-    right: 1px;
-    top: 1px;
-    align-items: center;
-}
+/* MOBIL NÉZET */
 
-.mobile:hover .hamburger{
+.hamburger{
     display: block;
     position: absolute;
     background-color: #282828;
-    padding: 5px 5px;
-    border-radius: 3px;
+    text-align: center;
+    right: 0;
+    top: 10vh;
+    width: 50%;
+    height: 37.5vh;
+
+
+    max-width: 0;
 }
 
-.mobile:hover .hamburger a{
+.hamburger a{
     display: block;
-    padding: 30px;
+    padding: 5vh;
+}
+
+.menu-btn{
+    position: absolute;
+    right: 5vw;
+    height: 7vh;
+    width: 15vw;
+    top: 1.5vh;
+    opacity: 0;
+}
+
+.menu-btn:checked ~ .hamburger{
+    max-width: 37.5vh;
 }
 
 /* KEZDŐLAP */
@@ -116,14 +128,14 @@ section{
 }
 
 .content-2 h1{
-    padding-top: 20vh;
+    padding-top: 17.5vh;
     font-size: 40px;
     font-weight: 400;
     color: #282828;
 }
 
 .content-2 p{
-    padding-top: 5vh;
+    padding-top: 4vh;
     color: #282828;
 }
 
@@ -137,7 +149,7 @@ footer{
     height: 4vh;
     width: 100%;
     background-color: white;
-    font-size: 0.9vw;
+    font-size: 12.5px;
     
     display: flex;
     justify-content: space-around;

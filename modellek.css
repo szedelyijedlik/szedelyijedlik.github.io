@@ -114,7 +114,9 @@ section{
     height: 100vh;
     background-size: cover;
     background-position: center;
+}
 
+section.sec-choose{
     display: flex;
     justify-content: center;
     text-align: center;
@@ -127,7 +129,36 @@ section{
 .modell-choose a{
     padding: 0 1vw;
     font-size: 20px;
-    text-decoration: none;
+}
+
+.content-belsoeges{
+    padding-top: 20vh;
+    padding-left: 5vw;
+}
+
+.content-belsoeges h1{
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.content-hybrid{
+    padding-top: 20vh;
+    padding-left: 5vw;
+}
+
+.content-hybrid h1{
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.content-elektromos{
+    padding-top: 20vh;
+    padding-left: 5vw;
+}
+
+.content-elektromos h1{
+    font-weight: 400;
+    font-size: 30px;
 }
 
 /* footer */

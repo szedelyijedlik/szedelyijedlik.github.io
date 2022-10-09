@@ -84,20 +84,20 @@ header nav.desktop a:hover{
     right: 0;
     top: 10vh;
     width: 50%;
-    height: 37.5vh;
+    height: 320px;
 
     max-width: 0;
 }
 
 .hamburger a{
     display: block;
-    padding: 5vh;
+    padding: 42.5px;
 }
 
 .menu-btn{
     position: absolute;
-    right: 5vw;
-    height: 7vh;
+    right: 10px;
+    height: 50px;
     width: 15vw;
     top: 1.5vh;
     opacity: 0;
@@ -105,7 +105,7 @@ header nav.desktop a:hover{
 }
 
 .menu-btn:checked ~ .hamburger{
-    max-width: 37.5vh;
+    max-width: 320px;
 }
 
 /* KEZDŐLAP */

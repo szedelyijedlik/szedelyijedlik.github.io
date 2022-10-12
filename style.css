@@ -97,15 +97,15 @@ header nav.desktop a:hover{
 .menu-btn{
     position: absolute;
     right: 10px;
-    height: 50px;
-    width: 15vw;
+    height: 55px;
+    width: 100px;
     top: 1.5vh;
     opacity: 0;
     cursor: pointer;
 }
 
 .menu-btn:checked ~ .hamburger{
-    max-width: 320px;
+    max-width: 100%;
 }
 
 /* KEZDŐLAP */
@@ -121,13 +121,13 @@ section.sec-up{
 }
 
 .content-1 h1{
-    padding-top: 15vh;
+    margin-top: 15vh;
     font-size: 40px;
     font-weight: 400;
 }
 
 .content-1 p{
-    padding-top: 2vh;
+    margin-top: 2vh;
 }
 
 section.sec-down{

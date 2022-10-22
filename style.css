@@ -140,13 +140,14 @@ section.sec-down{
 }
 
 .content-2{
-    padding-right: 3vw;
-    width: 1000px;
+    padding-right: 2vw;
+    width: 800px;
+    border: 1px solid red;
 }
 
-.content-2 h1{
-    padding-top: 30vh;
-    font-size: 2em;
+.content-2 h2{
+    padding-top: 27.5vh;
+    font-size: 1.8em;
 }
 
 .content-2 p{

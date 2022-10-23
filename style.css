@@ -8,7 +8,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'VWfont', sans-serif;
-    color: white;
 }
 
 html{
@@ -67,6 +66,7 @@ header nav.right{
 header nav a{
     text-decoration: none;
     padding: 10px 15px;
+    color: white;
 }
 
 header nav.desktop a:hover{
@@ -92,6 +92,7 @@ header nav.desktop a:hover{
 .hamburger a{
     display: block;
     padding: 42.5px;
+    color: white;
 }
 
 .menu-btn{
@@ -123,10 +124,12 @@ section.sec-up{
 .content-1 h1{
     margin-top: 15vh;
     font-size: 2.5em;
+    color: white;
 }
 
-.content-1 p{
+.content-1 p, .content-1 a{
     margin-top: 2vh;
+    color: white;
 }
 
 section.sec-down{
@@ -147,11 +150,13 @@ section.sec-down{
 .content-2 h2{
     padding-top: 27.5vh;
     font-size: 1.8em;
+    color: white;
 }
 
 .content-2 p{
     padding-top: 4vh;
     font-size: 0.9em;
+    color: white;
 }
 
 /* footer */
@@ -163,10 +168,15 @@ footer{
     font-size: 12.5px;
     
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
 footer p{
     color: #282828;
+}
+
+footer a {
+    color: #282828;
+    margin-left: 30px;
 }

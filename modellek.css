@@ -8,7 +8,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'VWfont', sans-serif;
-    color: white;
 }
 
 html{
@@ -67,6 +66,7 @@ header nav.right{
 header nav a{
     text-decoration: none;
     padding: 10px 15px;
+    color: white;
 }
 
 header nav.desktop a:hover{
@@ -92,6 +92,7 @@ header nav.desktop a:hover{
 .hamburger a{
     display: block;
     padding: 42.5px;
+    color: white;
 }
 
 .menu-btn{
@@ -129,6 +130,7 @@ section.sec-choose{
 .modell-choose a{
     padding: 0 1vw;
     font-size: 20px;
+    color: white;
 }
 
 .content-belsoeges{
@@ -139,6 +141,7 @@ section.sec-choose{
 .content-belsoeges h1{
     font-weight: 400;
     font-size: 30px;
+    color: white;
 }
 
 .content-hybrid{
@@ -149,6 +152,7 @@ section.sec-choose{
 .content-hybrid h1{
     font-weight: 400;
     font-size: 30px;
+    color: white;
 }
 
 .content-elektromos{
@@ -159,6 +163,7 @@ section.sec-choose{
 .content-elektromos h1{
     font-weight: 400;
     font-size: 30px;
+    color: white;
 }
 
 /* footer */
@@ -170,10 +175,15 @@ footer{
     font-size: 12.5px;
     
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
 footer p{
     color: #282828;
+}
+
+footer a {
+    color: #282828;
+    margin-left: 30px;
 }

@@ -24,16 +24,16 @@
         <nav class="right desktop">
             <a href="index.html">Kezdőlap</a>
             <a href="modellek.html">Modellek</a>
-            <a href="">Élmény</a>
+            <a href="buzz.html">Az új ID.Buzz</a>
         </nav>
         <nav class="right mobile">
-            <a href="">Menü</a>
-            <input type="checkbox" class="menu-btn" id="menu-btn">
+            <a href="#" onclick="openMenu()">Menü</a>
             <div class="hamburger">
+                <a href="#" onclick="closeMenu()" class="closeBtn">&times</a>
                 <div class="hamburger-links">
                     <a href="index.html">Kezdőlap</a>
                     <a href="modellek.html">Modellek</a>
-                    <a href="">Élmény</a>
+                    <a href="buzz.html">Az új ID.Buzz</a>
                 </div>
             </div>
         </nav>
@@ -41,30 +41,81 @@
 
     <section class="sec-choose" style="background-image: url(files/golfs_1.jpg);">
         <div class="modell-choose">
-            <a href="#belsoeges">Belsőégésű modellek</a>
-            <a href="#hybrid">Hybrid modellek</a>
             <a href="#elektromos">Elektromos modellek</a>
-        </div>
-    </section>
-    <section id="belsoeges" style="background-image: url(files/polo_1.jpg);">
-        <div class="content-belsoeges">
-            <h1>Belsőégésű modelljeink</h1>
-        </div>
-    </section>
-    <section id="hybrid" style="background-image: url(files/golfgte_2.jpg);">
-        <div class="content-hybrid">
-            <h1>Hybrid modelljeink</h1>
+            <a href="#belsoeges">Belsőégésű modellek</a>
         </div>
     </section>
     <section id="elektromos" style="background-image: url(files/id5_1.jpg);">
         <div class="content-elektromos">
             <h1>Elektromos modelljeink</h1>
+            <div class="table">
+                <table>
+                    <tr>
+                        <th>Modell</th>
+                        <th>Típus</th>
+                    </tr>
+                    <tr>
+                        <td>ID.3</td>
+                        <td>Elektromos</td>
+                    </tr>
+                    <tr>
+                        <td>ID.4</td>
+                        <td>Elektromos</td>
+                    </tr>
+                    <tr>
+                        <td>ID.5</td>
+                        <td>Elektromos</td>
+                    </tr>
+                </table>
+            </div>
         </div>
     </section>
-
+    <section id="belsoeges" style="background-image: url(files/polo_1.jpg);">
+        <div class="content-belsoeges">
+            <h1>Belsőégésű modelljeink</h1>
+            <div class="table">
+                <table>
+                    <tr>
+                        <th>Modell</th>
+                        <th>Típus</th>
+                    </tr>
+                    <tr>
+                        <td>T-Cross</td>
+                        <td>SUV</td>
+                    </tr>
+                    <tr>
+                        <td>Taigo</td>
+                        <td>SUV</td>
+                    </tr>
+                    <tr>
+                        <td>Tiguan</td>
+                        <td>SUV</td>
+                    </tr>
+                    <tr>
+                        <td>Golf Variant</td>
+                        <td>Kombi</td>
+                    </tr>
+                    <tr>
+                        <td>Passat Variant</td>
+                        <td>Kombi</td>
+                    </tr>
+                    <tr>
+                        <td>Arteon</td>
+                        <td>Kombi</td>
+                    </tr>
+                    <tr>
+                        <td>Golf</td>
+                        <td>Kompakt</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+    
     <footer>
         <p>Volkswagen ©2022</p>
         <a href="https://www.volkswagen-newsroom.com/de" target="nr_vw">Képek forrása</a>
     </footer>
+    <script src="nav.js"></script>
 </body>
 </html>

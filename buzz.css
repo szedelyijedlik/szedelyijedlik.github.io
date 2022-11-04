@@ -105,87 +105,16 @@ header nav.desktop a:hover{
     font-size: 30px;
 }
 
-/* KEZDŐLAP */
-
-section{
+section {
     height: 100vh;
-    background-size: cover;
-    background-position: center;
+    width: 100%;
 }
 
-section.sec-choose{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-.modell-choose{
-    padding-top: 15vh;
-}
-
-.modell-choose a{
-    padding: 0 1vw;
-    font-size: 20px;
-    color: white;
-}
-
-.content-belsoeges{
-    padding-top: 20vh;
-    padding-left: 5vw;
-}
-
-.content-belsoeges h1{
-    font-weight: 400;
-    font-size: 30px;
-    color: white;
-}
-
-.content-hybrid{
-    padding-top: 20vh;
-    padding-left: 5vw;
-}
-
-.content-hybrid h1{
-    font-weight: 400;
-    font-size: 30px;
-    color: white;
-}
-
-.content-elektromos{
-    padding-top: 20vh;
-    padding-left: 5vw;
-}
-
-.content-elektromos h1{
-    font-weight: 400;
-    font-size: 30px;
-    color: white;
-}
-
-.table {
-    margin-top: 40px;
-    width: 270px;
-    background: rgba(40,40,40,10%);
-    border-radius: 20px;
-    padding: 0 5px;
-
-    display: flex;
-    justify-content: center;
-}
-
-table {
-    border-collapse: collapse;
-    color: white;
-}
-
-th,td {
-    text-align: center;
-    margin: 5px;
-    padding: 15px 25px;
-}
-
-th {
-    border-bottom: 2px solid rgba(40,40,40,50%);
+video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /* footer */

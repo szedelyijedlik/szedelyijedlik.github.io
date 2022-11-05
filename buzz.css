@@ -160,6 +160,54 @@ video {
     width: 25px;
 }
 
+.divsort {
+    position: absolute;
+    margin-top: 25vh;
+}
+
+.buzzcontent {
+    color: white;
+    margin: 20px;
+}
+
+.buzzimg {
+    float: left;
+}
+
+img.buzzimg {
+    width: 40vw;
+}
+
+.buzzcontent {
+    float: right;
+    width: 40vw;
+}
+
+.buzzcontent h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+
+.buzzcontent p {
+    font-size: 1.2em;
+}
+
+@media(max-width: 820px){
+    .divsort {
+        position: absolute;
+        margin-top: 15vh;
+    }
+    img.buzzimg {
+        width: 90vw;
+        margin: 15px;
+    }
+    
+    .buzzcontent {
+        float: right;
+        width: 90vw;
+    }
+}
+
 /* footer */
 
 footer{

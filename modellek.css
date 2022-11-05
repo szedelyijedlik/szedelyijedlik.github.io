@@ -121,10 +121,14 @@ video {
     z-index: -100;
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+}
+
 .modell-choose{
     position: absolute;
     margin-top: 15vh;
-    width: 100%;
     text-align: center;
     color: white;
 }
@@ -149,7 +153,6 @@ video {
 
 .content-scroll {
     position: absolute;
-    width: 100%;
     text-align: center;
     bottom: 10px;
 }

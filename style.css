@@ -119,11 +119,15 @@ video {
     z-index: -100;
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+}
+
 .content-1 {
     position: absolute;
     top: 20vh;
     text-align: center;
-    width: 100%;
 }
 
 .content-1 h1{
@@ -138,7 +142,6 @@ video {
 
 .content-scroll {
     position: absolute;
-    width: 100%;
     text-align: center;
     bottom: 10px;
 }

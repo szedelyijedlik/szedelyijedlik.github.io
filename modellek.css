@@ -113,20 +113,59 @@ section{
     background-position: center;
 }
 
-section.sec-choose{
-    display: flex;
-    justify-content: center;
-    text-align: center;
+video {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -100;
 }
 
 .modell-choose{
-    padding-top: 15vh;
+    position: absolute;
+    margin-top: 15vh;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.modell-choose h4 {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 15px;
+    text-decoration: underline;
 }
 
 .modell-choose a{
     padding: 0 1vw;
     font-size: 20px;
     color: white;
+    text-decoration: none;
+}
+
+.modell-choose a:hover {
+    text-decoration: underline;
+}
+
+.content-scroll {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 10px;
+}
+
+.content-scroll p {
+    font-size: 1.2em;
+    color: white;
+    margin: 5px;
+}
+
+.content-scroll a {
+    text-decoration: none;
+}
+
+.content-scroll img {
+    width: 20px;
 }
 
 .content-belsoeges{

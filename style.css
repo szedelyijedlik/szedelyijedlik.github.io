@@ -109,16 +109,24 @@ header nav.desktop a:hover{
 
 section.sec-up{
     height: 100vh;
-    background-size: cover;
-    background-position: center;
+}
 
-    display: flex;
-    justify-content: center;
+video {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -100;
+}
+
+.content-1 {
+    position: absolute;
+    top: 20vh;
     text-align: center;
+    width: 100%;
 }
 
 .content-1 h1{
-    margin-top: 15vh;
     font-size: 2.5em;
     color: white;
 }
@@ -126,6 +134,27 @@ section.sec-up{
 .content-1 p, .content-1 a{
     margin-top: 2vh;
     color: white;
+}
+
+.content-scroll {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 10px;
+}
+
+.content-scroll p {
+    font-size: 1.2em;
+    color: white;
+    margin: 5px;
+}
+
+.content-scroll a {
+    text-decoration: none;
+}
+
+.content-scroll img {
+    width: 20px;
 }
 
 section.sec-down{
@@ -144,7 +173,7 @@ section.sec-down{
 }
 
 .content-2 h2{
-    padding-top: 27.5vh;
+    padding-top: 30vh;
     font-size: 1.8em;
     color: white;
 }

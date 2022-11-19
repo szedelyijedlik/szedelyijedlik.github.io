@@ -210,6 +210,9 @@ img.buzzimg {
     section#more-info {
         min-height: 105vh;
     }
+    .divsort {
+        margin-top: 15vh;
+    }
 }
 
 /* footer */

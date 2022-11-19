@@ -20,7 +20,7 @@
 @media(min-height: 700px){
     header{
         border-bottom: 0.01vw solid white;
-        background-color: rgba(40,40,40,30%);
+        background-color: rgba(40,40,40,20%);
     }
 }
 

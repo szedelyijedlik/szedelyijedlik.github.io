@@ -181,7 +181,7 @@ video {
 }
 
 .content-belsoeges{
-    padding-top: 20vh;
+    padding-top: 15vh;
     padding-left: 5vw;
 }
 
@@ -192,7 +192,7 @@ video {
 }
 
 .content-hybrid{
-    padding-top: 20vh;
+    padding-top: 15vh;
     padding-left: 5vw;
 }
 
@@ -203,7 +203,7 @@ video {
 }
 
 .content-elektromos{
-    padding-top: 20vh;
+    padding-top: 15vh;
     padding-left: 5vw;
 }
 
@@ -232,7 +232,7 @@ table {
 th,td {
     text-align: center;
     margin: 5px;
-    padding: 15px 25px;
+    padding: 10px 20px;
 }
 
 th {

@@ -205,12 +205,10 @@ img.buzzimg {
     .buzzcontent {
         float: right;
         width: 90vw;
+        font-size: small;
     }
     section#more-info {
-        min-height: 115vh;
-    }
-    .divsort {
-        margin-top: 15vh;
+        min-height: 105vh;
     }
 }
 

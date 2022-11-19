@@ -162,7 +162,7 @@ video {
 
 .divsort {
     position: absolute;
-    margin-top: 25vh;
+    margin-top: 20vh;
 }
 
 .buzzcontent {
@@ -205,6 +205,12 @@ img.buzzimg {
     .buzzcontent {
         float: right;
         width: 90vw;
+    }
+    section#more-info {
+        min-height: 115vh;
+    }
+    .divsort {
+        margin-top: 15vh;
     }
 }
 

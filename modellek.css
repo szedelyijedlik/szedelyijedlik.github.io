@@ -145,10 +145,12 @@ video {
     font-size: 20px;
     color: white;
     text-decoration: none;
+    padding: 7px;
+    border-radius: 10px;
 }
 
 .modell-choose a:hover {
-    text-decoration: underline;
+    background-color: rgba(40,40,40,20%);
 }
 
 .content-scroll {

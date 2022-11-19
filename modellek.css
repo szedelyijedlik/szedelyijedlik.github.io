@@ -113,6 +113,13 @@ section{
     background-position: center;
 }
 
+@media(max-width: 800px){
+    section {
+        background-size: auto;
+        background-position: -900px center;
+    }
+}
+
 video {
     position: fixed;
     width: 100%;
